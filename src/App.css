@@ -6,12 +6,63 @@
     padding: 0px;
 }
 
+.colored-links{
+    text-decoration: none;
+}
+.colored-links:visited{
+    color: black;
+}
+.colored-links:hover{
+    color: gray;
+}
+.Linkedin{
+    color: black;
+    text-decoration: none;
+}
+.Linkedin:visited{
+    color:black;
+}
+
+.Linkedin:hover{
+    color:black;
+}
+.Github:visited{
+    color:black;
+}
+
+.Project1:visited , 
+.Project2:visited{
+
+        color: white;
+}
+.Project1 , 
+.Project2{
+
+    text-decoration: none ;
+}
+.resume{
+
+    color: black;
+    text-decoration: none;
+}
+
+.link{
+
+    text-decoration: none;
+    color: black;
+}
+.link:visited{
+    color: black;
+
+
+}
 body {
     font-family: "Poppins", sans-serif;
     margin: 0px;
     font-weight: 900;
     /* font-style:normal; */
-}
+    overflow-x: hidden;
+    }
 
 .name {
     font-size: 1.2rem;
@@ -20,6 +71,7 @@ body {
     margin-left: 70px;
     color: black;
     /* font-weight: bold; */
+    animation: name 1s ease-in;
 }
 
 .Attributes {
@@ -54,10 +106,46 @@ body {
     margin: 10px 0px 0px 0px;
 }
 
+@keyframes name {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.About {
+    animation: name 1.1s ease-in;
+}
+.Experience {
+    animation: name 1.2s ease-in;
+}
+.Projects {
+    animation: name 1.3s ease-in;
+}
+.Contact {
+    animation: name 1.4s ease-in;
+}
+
 .image--container > img {
     width: 350px;
     height: 370px;
     border-radius: 50%;
+    animation: image--container ease-in 1.5s;
+}
+
+@keyframes image--container {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .main--container {
@@ -75,6 +163,17 @@ body {
 }
 .intro--container {
     margin-top: 54px;
+    /* animation: intro--container 1s ease-in; */
+}
+
+@keyframes intro--container {
+    from {
+        transform: translateX(250px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
 }
 
 .main--name {
@@ -134,7 +233,6 @@ body {
     /* font-weight: 800; */
     color: grey;
     font-size: 18px;
-
 }
 
 .Main-heading {
@@ -142,7 +240,6 @@ body {
     font-size: 50px;
     font-weight: 500;
     /* font-style: italic; */
-
 }
 
 .about-container {
@@ -300,4 +397,72 @@ body {
     /* max-width: 450px; */
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.custom-card {
+    border: 2px solid gray;
+    display: inline-block;
+    /* backgroudsdfk */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.custom-card-group {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    margin-right: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.Email {
+    display: flex;
+    
+}
+
+
+
+.Linkedin-Profile {
+    display: flex;
+    margin-left: 20px;
+}
+
+.contact-info {
+    display:  flex;
+    border: 2px solid lightgrey;
+    padding: 15px;
+    border-radius: 25px;
+    max-width: 530px;
+    justify-content: center;
+    margin:auto;
+}
+
+.icon6 {
+    border-radius: 10px;
+    /* background-color: red; */
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+.icon7 {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 35px;
+    /* padding: 0px 4px 0px 5px; */
+    padding-bottom: 4px;
+    margin-right: 5px;
+    height: 35px;
+    display: grid;
+    place-content: center;
+    background-color: black;
+    color: white;
 }

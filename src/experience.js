@@ -27,7 +27,7 @@ export default function Experience() {
     return (
         <div>
             <div className="experience-container">
-                <h3 className="sub-heading">Explore my</h3>
+                <h3 id = 'Sub-heading' className="sub-heading">Explore my</h3>
                 <h1 className="experience-heading">Experience</h1>
             </div>
 

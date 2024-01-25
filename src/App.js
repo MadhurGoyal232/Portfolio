@@ -5,6 +5,7 @@ import './App.css';
 import About from "./About"
 import Experience from './experience';
 import Projects from './projects';
+import Contact from './contact.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -25,6 +26,7 @@ function App() {
           <About />
           <Experience />
           <Projects />
+          <Contact />
 
         
       </div>
