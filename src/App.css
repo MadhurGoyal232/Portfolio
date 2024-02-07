@@ -6,55 +6,49 @@
     padding: 0px;
 }
 
-.colored-links{
+.colored-links {
     text-decoration: none;
 }
-.colored-links:visited{
+.colored-links:visited {
     color: black;
 }
-.colored-links:hover{
+.colored-links:hover {
     color: gray;
 }
-.Linkedin{
+.Linkedin {
     color: black;
     text-decoration: none;
 }
-.Linkedin:visited{
-    color:black;
+.Linkedin:visited {
+    color: black;
 }
 
-.Linkedin:hover{
-    color:black;
+.Linkedin:hover {
+    color: black;
 }
-.Github:visited{
-    color:black;
+.Github:visited {
+    color: black;
 }
 
-.Project1:visited , 
-.Project2:visited{
-
-        color: white;
+.Project1:visited,
+.Project2:visited {
+    color: white;
 }
-.Project1 , 
-.Project2{
-
-    text-decoration: none ;
+.Project1,
+.Project2 {
+    text-decoration: none;
 }
-.resume{
-
+.resume {
     color: black;
     text-decoration: none;
 }
 
-.link{ 
-
+.link {
     text-decoration: none;
     color: black;
 }
-.link:visited{
+.link:visited {
     color: black;
-
-
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -62,7 +56,7 @@ body {
     font-weight: 900;
     /* font-style:normal; */
     overflow-x: hidden;
-    }
+}
 
 .name {
     font-size: 1.2rem;
@@ -141,7 +135,7 @@ body {
         transform: translateX(-500px);
         opacity: 0;
     }
-    
+
     to {
         transform: translateX(0px);
         opacity: 1;
@@ -426,10 +420,7 @@ body {
 
 .Email {
     display: flex;
-    
 }
-
-
 
 .Linkedin-Profile {
     display: flex;
@@ -437,13 +428,13 @@ body {
 }
 
 .contact-info {
-    display:  flex;
+    display: flex;
     border: 2px solid lightgrey;
     padding: 15px;
     border-radius: 25px;
     max-width: 530px;
     justify-content: center;
-    margin:auto;
+    margin: auto;
 }
 
 .icon6 {
